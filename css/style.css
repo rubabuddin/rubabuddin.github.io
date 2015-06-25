@@ -104,6 +104,10 @@
 		font-size: 1.6em;
 	}
 
+	header .byline2 {
+		font-size: 1.0em;
+	}
+	
 	footer > :last-child {
 		margin-bottom: 0;
 	}
@@ -472,6 +476,15 @@
 
 	#header {
 		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 6em 0;
+		text-align: center;
+		background-position: 0% 65%;
+		position: relative;
+	}
+	#header2 {
+		background: #333333 url("../images/pic08.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
